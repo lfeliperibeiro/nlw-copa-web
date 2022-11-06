@@ -28,7 +28,7 @@ export default function Home({ pollCount, guessCount, userCount }: HomeProps) {
 
       await navigator.clipboard.writeText(code)
       alert(
-        'Bolão criado com sucesso, o código foi copiado para a área de tranferência',
+        'Bolão criado com sucesso, o código foi copiado para a área de transferência',
       )
       setPollTitle('')
     } catch (err) {
